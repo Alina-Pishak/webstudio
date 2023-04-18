@@ -98,13 +98,31 @@ body {
 }
 
 .container {
-    width: 1158px;
+    /* width: 1158px; */
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 /* HEADER */
+
+@media screen and (max-width:767px) {
+    .header-list {
+        display: none;
+    }
+    .header-address {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:428px) {
+    .container {
+        width: 426px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .header {
     padding-top: 24px;
@@ -112,6 +130,31 @@ body {
     border-bottom: 1px solid var(--color-line);
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    color: var(--color-logo-header);
+    margin-right: 75px;
+}
+
+.mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+
+.mobile-menu-open-icon {
+    stroke: var(--color-secondary);
+}
+
+
+
+/* .
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -216,7 +259,7 @@ body {
 .header-address-item:hover,
 .header-address-item:focus {
     color: var(--color-hover-link);
-}
+} */
 
 
 /* HERO SECTION */
