@@ -152,6 +152,133 @@ body {
     stroke: var(--color-secondary);
 }
 
+.mobile-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: var(--color-invert);
+}
+
+.menu-container {
+    width: 100%;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 24px;
+}
+
+.mobile-menu-close {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color var(--transition-dur-and-func);
+}
+
+.mobile-menu-close:hover,
+.mobile-menu-close:focus {
+    background-color: var(--color-hover-btn);
+}
+
+.mobile-menu-close-icon {
+    transition: fill var(--transition-dur-and-func);
+}
+
+.mobile-menu-close:hover .mobile-menu-close-icon,
+.mobile-menu-close:focus .mobile-menu-close-icon {
+    fill: var(--color-invert);
+}
+
+.mobile-menu-list {
+    padding-top: 80px;
+    margin-bottom: 284px;
+}
+
+.mobile-menu-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mobile-menu-link {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-secondary);
+    transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
+}
+
+.mobile-menu-link:hover,
+.mobile-menu-link:focus {
+    color: var(--color-hover-link);
+}
+
+.link-studio-active {
+    color: var(--color-hover-link);
+}
+
+.mobile-address-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mobile-address-item:last-child {
+    margin-bottom: 48px;
+}
+
+.mobile-address-tel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #4D5AE5;
+    
+}
+
+.mobile-address-mail {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.mobile-menu-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.mobile-menu-soc-item {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-menu-soc-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-icon-background);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color var(--transition-dur-and-func);
+}
+
+.mobile-menu-soc-link:active,
+.mobile-menu-soc-link:hover,
+.mobile-menu-soc-link:focus {
+    background-color: var(--color-icon-background-active);
+}
 
 
 /* .
