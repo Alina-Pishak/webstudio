@@ -186,6 +186,39 @@
         justify-content: center;
     }
 
+    /* FOOTER */
+
+    .footer-wrap-top {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        align-items: baseline;
+    }
+
+    .footer-logo-and-text {
+        align-items: flex-start;
+    }
+
+    .social-media-footer {
+        align-items: flex-start;
+    }
+
+    .footer-form-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-items: flex-start;
+    }
+
+    .footer-form-text {
+        text-align: start;
+    }
+
+    .footer-form-input {
+        width: 264px;
+    }
+
+
 }
 
 @media screen and (min-width: 1200px) {
