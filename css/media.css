@@ -7,9 +7,6 @@
         display: none;
     }
 
-    .features-icon-container {
-        display: none;
-    }
 
 }
 
@@ -147,19 +144,48 @@
 
     /* FEATURES SECTION */
 
-    .features-icon-container {
-        display: none;
-    }
 
     .features-list {
-        
-        
+        display: flex;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     .features-item {
         max-width: 356px;
-
     }
+    
+    .features-subtitle {
+        text-align: start;
+    }
+
+    /* TEAM */
+
+    .team-list {
+        display: flex;
+        gap: 64px 24px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .team-item {
+        max-width: 264px;
+    }
+
+    /* CUSTOMERS */
+
+    .customers-item {
+        min-width: 168px;
+        height: 88px;
+    }
+
+    .customers-list {
+        gap: 72px 24px;
+        justify-content: center;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -209,7 +235,80 @@
         }
     }
 
+    /* FEATURES-SECTION */
 
+    .features {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .features-list {
+        gap: 24px;
+        flex-wrap: nowrap;
+    }
+
+    .features-icon-container {
+        background: #F4F4FD;
+        margin-bottom: 8px;
+        width: 264px;
+        height: 112px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .features-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.017em;
+    }
+
+    .features-text {
+        font-weight: 400;
+        letter-spacing: 0.017em;
+    }
+
+    /* ABOUT */
+
+    .about {
+        padding-bottom: 120px;
+        display: block;
+    }
+
+    .about-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .about-item {
+        width: calc((100% - 48px) / 3);
+    }
+    
+    /* TEAM */
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-list {
+        gap: 24px;
+        flex-direction: row;
+    }
+
+    /* CUSTOMERS */
+
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-list {
+        align-items: center;
+        gap: 24px;
+    }
 
     /* MODAL */
 
