@@ -209,6 +209,10 @@ body {
     color: var(--color-hover-link);
 }
 
+.link-portfolio-active {
+    color: var(--color-hover-link);
+}
+
 .mobile-address-item:not(:last-child) {
     margin-bottom: 40px;
 }
@@ -591,6 +595,41 @@ body {
 } */
 
 /* PORTFOLIO */
+
+.portfolio {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.portfolio-btn-list {
+    display: flex;
+    gap: 24px 16px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+    width: 263px;
+}
+
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-action);
+    background-color: var(--color-logo-footer);
+    border: 1px solid var(--color-line);
+    border-radius: 4px;
+    padding: 8px 16px;
+    transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--color-invert);
+    background-color: var(--color-hover-btn);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 /* .portfolio {
     padding-top: 96px;
     padding-bottom: 120px;
