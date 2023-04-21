@@ -186,6 +186,32 @@
         justify-content: center;
     }
 
+    /* PORTFOLIO */
+
+    .portfolio {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
+    .portfolio-btn-list {
+        gap: 24px;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-bottom: 64px;
+        width: 100%;
+    }
+
+    .portfolio-list {
+        display: flex;
+        gap: 72px 24px;
+        flex-wrap: wrap;
+    }
+
+    .portfolio-item {
+        max-width: 356px;
+        margin-bottom: 0;
+    }
+
     /* FOOTER */
 
     .footer {
@@ -363,6 +389,22 @@
     .social-media-footer {
         margin-right: 80px;
     }
+
+    /* PORTFOLIO */
+
+    .portfolio {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    .portfolio-list {
+        gap: 48px 24px;
+    }
+
+    .portfolio-item {
+        max-width: 356px;
+    }
+        
 
     /* MODAL */
 
