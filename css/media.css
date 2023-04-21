@@ -188,9 +188,12 @@
 
     /* FOOTER */
 
+    .footer {
+        display: flex;
+    }
+
     .footer-wrap-top {
         display: flex;
-        justify-content: center;
         gap: 24px;
         align-items: baseline;
     }
@@ -199,15 +202,13 @@
         align-items: flex-start;
     }
 
-    .social-media-footer {
-        align-items: flex-start;
+    .social-media-text {
+        text-align: start;
     }
 
     .footer-form-wrapper {
         display: flex;
-        flex-direction: row;
         gap: 24px;
-        align-items: flex-start;
     }
 
     .footer-form-text {
@@ -341,6 +342,26 @@
     .customers-list {
         align-items: center;
         gap: 24px;
+    }
+
+    /* FOOTER */ 
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .footer-text {
+        margin-right: 120px;
+    }
+
+    .social-media-footer {
+        margin-right: 80px;
     }
 
     /* MODAL */
