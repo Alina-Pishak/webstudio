@@ -243,6 +243,11 @@
 
     .footer-form-input {
         width: 264px;
+        margin-bottom: 0;
+    }
+
+    .footer-form-submit {
+        margin: 0;
     }
 
 

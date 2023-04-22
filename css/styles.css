@@ -585,6 +585,10 @@ body {
     padding-bottom: 96px;
 }
 
+.footer-wrap-top {
+    margin-bottom: 72px;
+}
+
 .footer-logo-and-text {
     display: flex;
     flex-direction: column;
@@ -603,9 +607,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-footer-text);
     max-width: 268px;
-    margin-bottom: 72px;
-    margin-right: auto;
-    margin-left: auto;
+    
 }
 
 .social-media-text {
@@ -622,7 +624,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 72px;
 }
 
 .footer-soc-item {
