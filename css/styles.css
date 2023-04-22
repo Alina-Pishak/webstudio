@@ -152,12 +152,6 @@ body {
     transition: opacity var(--transition-dur-and-func), visiblity var(--transition-dur-and-func);
 }
 
-.mobile-menu.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
-
 .close-menu-btn {
     width: 24px;
     height: 24px;
@@ -897,4 +891,11 @@ body {
 .modal-form-submit:focus {
     background-color: var(--color-hover-btn);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.Alina {
+    overflow: hidden;
+
 }
